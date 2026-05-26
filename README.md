@@ -1,16 +1,37 @@
 # ArchieSeamons-CW2-UP2110919-Image_Classification
-AI Usage:
+## How to run this Notebook
+
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)
+2. Extract the zip file
+3. Place the extracted folder in the same directory as `CW2.ipynb`
+4. Open the notebook and click **Run All**
+
+The expected folder structure is:
+```python
+CW2.ipynb
+Garbage classification/
+    Garbage classification/
+        cardboard/
+        glass/
+        metal/
+        paper/
+        plastic/
+        trash/
+```
+
+# AI Usage:
 - Aspects of Section 1.3 were bug-fixed and generated.
 - Tables in the markdowns were pasted from Excel and converted into the correct format.
 - Saving both the model and its history for evaluation later on.
 - Converting the code in 8.3 to show 5 incorrect images rather than 1.
 - Grammarly used to identify typos and grammatical errors in the README file
+- Producing the code snippet to install libraries
 
-# Garbage Image Classification - M32895 Bif Data Applicatons CW2
+# Garbage Image Classification - M32895 Big Data Applicatons CW2
 ## Student Name: Archie Seamons, Student ID: UP2110919, Year: 2025/26, Examiner: Dr Sergey Yakovlev
 
 ## Introduction
-This project develops a full Machine Learning (ML) pipeline to classify images of waste into 6 categories using a Convolutional Neural Network (CNN). The pipeline covers every stage from raw-data collection and cleaning to individual real-world predictions. The Garbage Classification dataset from Kaggle is used, which contains 2500* images spanning across 6 classes of household and recyclable waste (cardboard, glass, metal, plastic, and trash).
+This project develops a full Machine Learning (ML) pipeline to classify images of waste into 6 categories using a Convolutional Neural Network (CNN). The pipeline covers every stage from raw-data collection and cleaning to individual real-world predictions. The Garbage Classification dataset from Kaggle is used, which contains 2500* images spanning across 6 classes of household and recyclable waste (cardboard, glass, metal, paper, plastic, and trash).
 
 Two CNN models were produced: a simple baseline and a deeper, optimised version. Both were evaluated and compared, with the best-performing model selected for final testing on unseen data. All steps are documented with explanations, and the reasoning behind each decision is provided throughout.
 
